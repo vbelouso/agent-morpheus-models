@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/agent-morpheus-models.iml" filepath="$PROJECT_DIR$/agent-morpheus-models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exploit-iq-models.iml" filepath="$PROJECT_DIR$/exploit-iq-models.iml" />
     </modules>
   </component>
 </project>
