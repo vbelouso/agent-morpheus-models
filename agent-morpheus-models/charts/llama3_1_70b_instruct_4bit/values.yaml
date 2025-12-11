@@ -75,11 +75,11 @@ ingress:
 
 resources:
   limits:
-    cpu: 2000m
+    cpu: 4000m
     memory: 35Gi
     nvidia.com/gpu: "2"
   requests:
-    cpu: 500m
+    cpu: 2000m
     memory: 25Gi
     nvidia.com/gpu: "2"
 
