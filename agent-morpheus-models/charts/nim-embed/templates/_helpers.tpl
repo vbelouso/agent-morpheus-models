@@ -39,7 +39,7 @@ helm.sh/chart: {{ include "nim-embed.chart" . }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
 app.kubernetes.io/managed-by: {{ .Release.Service }}
-app: agent-morpheus
+app: exploit-iq
 component: nim-embed
 {{- end }}
 
@@ -47,7 +47,7 @@ component: nim-embed
 Selector labels
 */}}
 {{- define "nim-embed.selectorLabels" -}}
-app: agent-morpheus
+app: exploit-iq
 component: nim-embed
 {{- end }}
 

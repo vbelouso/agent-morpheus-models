@@ -40,7 +40,7 @@ helm.sh/chart: {{ include "llama3_1_70b_instruct_4bit.chart" . }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
 app.kubernetes.io/managed-by: {{ .Release.Service }}
-app: agent-morpheus
+app: exploit-iq
 component: llama3.1-70b-instruct
 inference: vllm
 {{- end }}

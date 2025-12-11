@@ -2,7 +2,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
-  name: {{ include "agent-morpheus-models.fullname" . }}-anyuid-scc
+  name: {{ include "exploit-iq-models.fullname" . }}-anyuid-scc
 rules:
   - verbs:
       - use

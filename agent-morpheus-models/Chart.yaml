@@ -1,6 +1,6 @@
 apiVersion: v2
-name: agent-morpheus-models
-description: An Umbrella Helm chart for Deploying agent morpheus local LLMs and embedding models
+name: exploit-iq-models
+description: An Umbrella Helm chart for Deploying ExploitIQ local LLMs and embedding models
 
 # A chart can be either an 'application' or a 'library' chart.
 #

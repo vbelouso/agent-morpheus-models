@@ -48,7 +48,7 @@ Selector labels
 {{- define "nim_llm.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "nim_llm.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
-app: agent-morpheus
+app: exploit-iq
 component: nim-llm
 {{- end }}
 
